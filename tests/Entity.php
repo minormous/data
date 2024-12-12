@@ -20,4 +20,14 @@ class Entity implements EntityInterface
             'name' => 'string',
         ];
     }
+
+    public function __serialize(): array
+    {
+        return (array) $this;
+    }
+
+    public function __unserialize(array $data): void
+    {
+        $this->apply($data);
+    }
 }

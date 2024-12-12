@@ -2,7 +2,7 @@
 
 namespace MinormousTests\Data\Traits;
 
-class JsonAwareTest extends \PHPUnit_Framework_TestCase
+class JsonAwareTest extends \PHPUnit\Framework\TestCase
 {
     public function testJson()
     {

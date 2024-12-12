@@ -2,9 +2,9 @@
 
 namespace MinormousTests\Data\Traits;
 
-class DiffableTest extends \PHPUnit_Framework_TestCase
+class DiffableTest extends \PHPUnit\Framework\TestCase
 {
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->object = new Diffable;
         $this->object->id = 42;

@@ -2,11 +2,11 @@
 
 namespace MinormousTests\Data\Traits;
 
-class DateAwareTest extends \PHPUnit_Framework_TestCase
+class DateAwareTest extends \PHPUnit\Framework\TestCase
 {
     private $object;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->object = new DateAware;
         $this->object->at = '2015-10-30 15:05:00';

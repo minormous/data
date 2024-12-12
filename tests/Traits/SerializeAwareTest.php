@@ -2,7 +2,7 @@
 
 namespace MinormousTests\Data\Traits;
 
-class SerializeAwareTest extends \PHPUnit_Framework_TestCase
+class SerializeAwareTest extends \PHPUnit\Framework\TestCase
 {
     public function testSerialize()
     {

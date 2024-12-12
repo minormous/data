@@ -2,7 +2,7 @@
 
 namespace MinormousTests\Data\Traits;
 
-class ImmutableValueObjectTest extends \PHPUnit_Framework_TestCase
+class ImmutableValueObjectTest extends \PHPUnit\Framework\TestCase
 {
     public function testConstruction()
     {
