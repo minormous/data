@@ -1,6 +1,6 @@
 <?php
 
-namespace EquipTests\Data;
+namespace MinormousTests\Data;
 
 class EntityTest extends \PHPUnit_Framework_TestCase
 {
@@ -10,7 +10,7 @@ class EntityTest extends \PHPUnit_Framework_TestCase
     protected $data;
 
     /**
-     * @var \Equip\Data\EntityInterface
+     * @var \Minormous\Data\EntityInterface
      */
     protected $entity;
 
@@ -27,7 +27,7 @@ class EntityTest extends \PHPUnit_Framework_TestCase
 
     public function testImplements()
     {
-        $this->assertInstanceOf('Equip\Data\EntityInterface', $this->entity);
+        $this->assertInstanceOf('Minormous\Data\EntityInterface', $this->entity);
         $this->assertInstanceOf('JsonSerializable', $this->entity);
         $this->assertInstanceOf('Serializable', $this->entity);
     }

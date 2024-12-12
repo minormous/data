@@ -1,8 +1,8 @@
 <?php
 
-namespace EquipTests\Data\Traits;
+namespace MinormousTests\Data\Traits;
 
-use Equip\Data\Traits\DiffableTrait;
+use Minormous\Data\Traits\DiffableTrait;
 
 class ObjectDiffer
 {

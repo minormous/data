@@ -1,8 +1,8 @@
 <?php
 
-namespace Equip\Data\Repository;
+namespace Minormous\Data\Repository;
 
-use Equip\Data\EntityInterface;
+use Minormous\Data\EntityInterface;
 use Traversable;
 
 interface PartialRepositoryInterface

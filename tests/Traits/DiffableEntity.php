@@ -1,10 +1,10 @@
 <?php
 
-namespace EquipTests\Data\Traits;
+namespace MinormousTests\Data\Traits;
 
-use Equip\Data\DiffableInterface;
-use Equip\Data\Traits\DiffableEntityTrait;
-use Equip\Data\Traits\EntityTrait;
+use Minormous\Data\DiffableInterface;
+use Minormous\Data\Traits\DiffableEntityTrait;
+use Minormous\Data\Traits\EntityTrait;
 
 class DiffableEntity implements DiffableInterface
 {

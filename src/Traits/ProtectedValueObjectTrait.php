@@ -1,6 +1,6 @@
 <?php
 
-namespace Equip\Data\Traits;
+namespace Minormous\Data\Traits;
 
 use RuntimeException;
 

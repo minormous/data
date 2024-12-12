@@ -1,6 +1,6 @@
 <?php
 
-namespace Equip\Data\Repository;
+namespace Minormous\Data\Repository;
 
 interface RepositoryInterface
 {

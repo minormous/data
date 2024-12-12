@@ -1,9 +1,9 @@
 <?php
 
-namespace EquipTests\Data;
+namespace MinormousTests\Data;
 
-use Equip\Data\Traits\EntityTrait;
-use Equip\Data\EntityInterface;
+use Minormous\Data\Traits\EntityTrait;
+use Minormous\Data\EntityInterface;
 
 class Entity implements EntityInterface
 {

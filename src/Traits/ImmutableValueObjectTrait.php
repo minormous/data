@@ -1,8 +1,8 @@
 <?php
 
-namespace Equip\Data\Traits;
+namespace Minormous\Data\Traits;
 
-use Equip\Data\ArraySerializableInterface;
+use Minormous\Data\ArraySerializableInterface;
 use RuntimeException;
 
 trait ImmutableValueObjectTrait

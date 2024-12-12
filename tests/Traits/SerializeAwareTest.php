@@ -1,6 +1,6 @@
 <?php
 
-namespace EquipTests\Data\Traits;
+namespace MinormousTests\Data\Traits;
 
 class SerializeAwareTest extends \PHPUnit_Framework_TestCase
 {

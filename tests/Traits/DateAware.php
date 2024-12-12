@@ -1,8 +1,8 @@
 <?php
 
-namespace EquipTests\Data\Traits;
+namespace MinormousTests\Data\Traits;
 
-use Equip\Data\Traits\DateAwareTrait;
+use Minormous\Data\Traits\DateAwareTrait;
 
 class DateAware
 {

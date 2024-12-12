@@ -1,11 +1,11 @@
 <?php
 
-namespace Equip\Data\Traits;
+namespace Minormous\Data\Traits;
 
 trait SerializeAwareTrait /* implements Serializable */
 {
     /**
-     * @see \Equip\Data\EntityInterface::toArray()
+     * @see \Minormous\Data\EntityInterface::toArray()
      *
      * @return array
      */
@@ -20,7 +20,7 @@ trait SerializeAwareTrait /* implements Serializable */
     }
 
     /**
-     * @see \Equip\Data\Traits\ImmutableValueObjectTrait::apply()
+     * @see \Minormous\Data\Traits\ImmutableValueObjectTrait::apply()
      *
      * @inheritDoc
      */

@@ -33,4 +33,4 @@ _..._
 
 ## 1.0.0 - 2016-01-05
 
-* Changed from `Spark` to `Equip` namespace
+* Changed from `Spark` to `Minormous` namespace

@@ -1,6 +1,6 @@
 <?php
 
-namespace EquipTests\Data\Traits;
+namespace MinormousTests\Data\Traits;
 
 class DiffableTest extends \PHPUnit_Framework_TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Equip\Data;
+namespace Minormous\Data;
 
 interface DiffableInterface
 {

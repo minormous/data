@@ -1,9 +1,9 @@
 <?php
 
-namespace EquipTests\Data\Traits;
+namespace MinormousTests\Data\Traits;
 
-use Equip\Data\ArraySerializableInterface;
-use Equip\Data\Traits\ImmutableValueObjectTrait;
+use Minormous\Data\ArraySerializableInterface;
+use Minormous\Data\Traits\ImmutableValueObjectTrait;
 
 class NestedImmutableValueObject implements ArraySerializableInterface
 {

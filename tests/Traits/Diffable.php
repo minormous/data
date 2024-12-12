@@ -1,8 +1,8 @@
 <?php
 
-namespace EquipTests\Data\Traits;
+namespace MinormousTests\Data\Traits;
 
-use Equip\Data\DiffableInterface;
+use Minormous\Data\DiffableInterface;
 
 class Diffable implements DiffableInterface
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Equip\Data\Mapper;
+namespace Minormous\Data\Mapper;
 
-use Equip\Data\EntityInterface;
+use Minormous\Data\EntityInterface;
 use Traversable;
 
 interface MapperInterface

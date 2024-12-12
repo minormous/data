@@ -1,8 +1,8 @@
 <?php
 
-namespace Equip\Data\Traits;
+namespace Minormous\Data\Traits;
 
-use Equip\Data\DiffableInterface;
+use Minormous\Data\DiffableInterface;
 
 trait DiffableTrait
 {

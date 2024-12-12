@@ -1,15 +1,15 @@
 <?php
 
-namespace Equip\Data\Traits;
+namespace Minormous\Data\Traits;
 
 /**
- * Intended to be used by classes implementing Equip\Data\EntityInterface that
- * also need to implement Equip\Data\DiffableInterface.
+ * Intended to be used by classes implementing Minormous\Data\EntityInterface that
+ * also need to implement Minormous\Data\DiffableInterface.
  */
 trait DiffableEntityTrait /* implements DiffableInterface */
 {
     /**
-     * @see \Equip\Data\EntityInterface::withData()
+     * @see \Minormous\Data\EntityInterface::withData()
      *
      * @param array $data
      *
@@ -18,7 +18,7 @@ trait DiffableEntityTrait /* implements DiffableInterface */
     abstract public function withData(array $data);
 
     /**
-     * @see \Equip\Data\ArraySerializableInterface::toArray()
+     * @see \Minormous\Data\ArraySerializableInterface::toArray()
      *
      * @return array
      */
